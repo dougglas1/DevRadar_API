@@ -12,7 +12,7 @@ Projeto realizado na Semana Omnistack10.
 **Aplicativo DevRadar_Mobile:**
 [https://github.com/dougglas1/DevRadar_Mobile](https://github.com/dougglas1/DevRadar_Mobile)
 
-**Sobre**
+## Sobre
 
 O Projeto tem por objetivo utilizar a API para realizar toda a regra de negócio, como também a comunicação com o Banco de Dados MongoDB que será requisitado pelo Aplicativo Web e Mobile.
 
@@ -20,7 +20,7 @@ O Aplicativo Web é responsável pelo cadastro de novos desenvolvedores, também
 
 O Aplicativo Mobile é responsável pela visualização dos desenvolvedores no Google Maps, bem como a filtragem dos desenvolvedores pela proximidade e por tecnologias (separadas por vírgula).
 
-**Requisitos**
+## Requisitos
 
 **Npm:** [https://www.npmjs.com/get-npm](https://www.npmjs.com/get-npm)
 
@@ -38,7 +38,7 @@ _**yarn -v**_
 
 **Visual Studio Code:** [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
-**Tecnologias**
+## Tecnologias
 
 API desenvolvida em **NodeJS** com Banco de Dados MongoDB
 
@@ -46,7 +46,7 @@ Web desenvolvida em **ReactJS** utilizando da API.
 
 Mobile desenvolvida em **React Native** utilizando da mesma API.
 
-**Pacotes e Bibliotecas NodeJS**
+## Pacotes e Bibliotecas NodeJS
 
 Adição package.json: ***yarn init -y***
 
@@ -62,11 +62,11 @@ Utilização de Requisição externa: ***yarn add cors***
 
 O Socket faz com que o Front não necessite efetuar requisição para o backend e o mesmo devolver a resposta, portanto o backend envia a resposta sem a necessidade de uma chamada, assim chamado de protocolo webSocket: **_yarn add socket.io_**
 
-**Pacotes e Bibliotecas ReactJS**
+## Pacotes e Bibliotecas ReactJS
 
 Criação do Projeto: ***yarn create react-app web***
 
-**Pacotes e Bibliotecas React Native**
+## Pacotes e Bibliotecas React Native
 
 Utilização do EXPO: _**yarn global add expo-cli**_
 
@@ -103,7 +103,7 @@ Instalação do Axios para chamadas API:  _**yarn add axios**_
 
 Caso for utilizado WebSocket na API será necessário a instalação no Mobile: **yarn add socket.io-client**
 
-**Requisição**
+## Requisição
 
 http://localhost:3333
 
@@ -127,7 +127,7 @@ http://localhost:3333
 	"longitude":-49.0706671
 }
 
-**Testar o Projeto**
+## Testar o Projeto
 
 API é necessário executar o comando: ***yarn dev*** (script no package.json) ou ***node index.js***
 
@@ -135,7 +135,7 @@ WEB é necessário executar o comando: ***yarn start***
 
 MOBILE é necessário executar o comando:  ***yarn start***
 
-**Baixar o Projeto**
+## Baixar o Projeto
 
 Para a utilização do projeto é necessário os 3 módulos.
 
